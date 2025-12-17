@@ -152,7 +152,6 @@ useSeoMeta({
       class="mb-32 overflow-hidden"
       :title="page.pricing.title"
       :description="page.pricing.description"
-      :plans="page.pricing.plans"
       :ui="{ title: 'text-left @container relative', description: 'text-left' }"
     >
       <template #title>
